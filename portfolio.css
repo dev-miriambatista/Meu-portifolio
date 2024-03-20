@@ -1,17 +1,25 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Passions+Conflict&display=swap');
 
+:root{
+
+--1color: #5b4b50; 
+--2color: #8cbdb1; 
+--3color:#f2ebbf; 
+--4color: #f2b562; 
+--5color: #ef6060; 
+}
 
 html,body{    
     margin: 0%;
     padding: 0%;
     width: auto;
     height: auto;
-
+background-color: gray;
 }
 
 header{
-    background-image: url(kraft4.png);
+    background-image: url(kraft5.png);
     background-size: cover;
     margin:center;
     width: 100%;
@@ -35,12 +43,27 @@ header p {
     font-family:Love Ya Like A Sister;
 }
 
+main{
+    background-color: --;
+    text-align: center;
+    
+}
+
 div{
+    display: block;
+    background-image: url(kraf.png);
+    background-size: cover;
+    border: 1px solid #000000;
     margin-top: 30px;
     margin-left: 25px;
     display: inline-block;
     height: 200px;
     width: 200px;
     border-radius: 20px;
-    box-shadow: 2px 2px 2px black;
+    box-shadow: 2px 2px 2px --5color;
+}
+
+div#q1{
+    
+    
 }
