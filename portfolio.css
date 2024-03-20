@@ -3,27 +3,31 @@
 
 
 html,body{    
-width: auto;
-height: auto;
+    margin: 0%;
+    padding: 0%;
+    width: auto;
+    height: auto;
 
 }
 
 header{
-    background-image: url(kraft3.png);
+    background-image: url(kraft4.png);
     background-size: cover;
     margin:center;
-    width: auto;
-    height:auto;
+    width: 100%;
+    height:100%;
     font-family:Love Ya Like A Sister;
     font-size: 3vh;
-    text-align: left;
-    padding: 20px;
+    text-align: center;
+    line-height: 2em;
+    padding-top: 15px;
     color:aliceblue;
     background-repeat: no-repeat;
 }
 header h1{
     display: inline-block;
     font-family: Love Ya Like A Sister;
+    padding-top: 10px;
 }
 
 header p {
