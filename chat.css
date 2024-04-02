@@ -1,0 +1,87 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f5deb3; /* Papel kraft */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8b4513; /* Marrom escuro */
+    padding: 20px;
+    text-align: center;
+    position: relative; /* Adicionado */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 48px;
+    color: #fff; /* Branco */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    position: absolute; /* Adicionado */
+    top: 50%; /* Adicionado */
+    transform: translateY(-50%); /* Adicionado */
+    right: 20px; /* Adicionado */
+}
+
+nav ul li {
+    display: block; /* Alterado */
+    margin-bottom: 10px; /* Adicionado */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Branco */
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5); /* Adicionado */
+    transition: background-color 0.3s ease;
+    display: block; /* Alterado */
+}
+
+nav ul li a:hover {
+    background-color: #a0522d; /* Marrom mais claro */
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+section h2 {
+    color: #8b4513; /* Marrom escuro */
+    font-size: 36px;
+}
+
+.projeto {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.projeto:hover {
+    transform: translateY(-5px);
+}
+
+.projeto h3 {
+    color: #8b4513; /* Marrom escuro */
+}
+
+footer {
+    background-color: #8b4513; /* Marrom escuro */
+    color: #fff; /* Branco */
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+}
+
