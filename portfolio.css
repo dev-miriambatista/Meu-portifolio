@@ -1,6 +1,8 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Passions+Conflict&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Wellfleet&display=swap');
+
 :root{
 
 --1color: #5b4b50; 
@@ -10,60 +12,68 @@
 --5color: #ef6060; 
 }
 
-html,body{    
-    margin: 0%;
-    padding: 0%;
-    width: auto;
-    height: auto;
-background-color: gray;
-}
-
-header{
-    background-image: url(kraft5.png);
-    background-size: cover;
-    margin:center;
-    width: 100%;
-    height:100%;
-    font-family:Love Ya Like A Sister;
-    font-size: 3vh;
-    text-align: center;
-    line-height: 2em;
-    padding-top: 15px;
-    color:aliceblue;
-    background-repeat: no-repeat;
-}
-header h1{
-    display: inline-block;
-    font-family: Love Ya Like A Sister;
-    padding-top: 10px;
-}
-
-header p {
-    display: inline-block;
-    font-family:Love Ya Like A Sister;
+body{    
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(to right,#da80bc,#a35ae7,var(--2color));
 }
 
 main{
-    background-color: --;
-    text-align: center;
-    
+    height: 50%;
+    width: 100vw;
+    position:relative;
 }
 
-div{
-    display: block;
-    background-image: url(kraf.png);
-    background-size: cover;
-    border: 1px solid #000000;
-    margin-top: 30px;
-    margin-left: 25px;
+container{
+    position: relative;
+    height: 800px;
+    width: 900px;
+}
+
+section{
     display: inline-block;
-    height: 200px;
-    width: 200px;
-    border-radius: 20px;
-    box-shadow: 2px 2px 2px --5color;
+}
+section#pc{
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(5%,1%);
+    height: 627px;
+    width:627px;
+    border-radius: 15%;
+    box-shadow: 4px 3px 3px #f2b562;
+    background: url("imagens/pc-iphone.png") no-repeat bottom center;
+} 
+iframe#pc{
+    display: inline-block;
+    position: absolute;
+    top:31%;
+    left: 47.5%;
+    transform: translate(-50%,-50%);
+    height: 259px;
+    width:353px;
+    border-radius:7%;
 }
 
-div#q1{
-    
-    
+iframe#iph{
+    display: inline-block;
+    position: absolute;
+    top:10%;
+    left: 22.5%;
+    transform: translate(-10%,-0%);
+    height: 165px;
+    width:85px;
+    border-radius:7%;
+}
+
+h1{
+    position: absolute;
+    display: inline-block;
+    top:0px;
+    left: 60%;
+    height: 50px;
+    width: 353px;
+    margin: 10px;
+    padding:20px;
 }
