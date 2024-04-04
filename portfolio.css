@@ -106,18 +106,21 @@ div{
     left:50%;
     height: 90px;
     text-align:center;
-   
     border-radius: 10%;
     color: white;
     font: normal larger 1em Nunito;
 }
 
-div>h1{
+#and>h1{
+
     display: block;
     background-color: var(--5color);
-    font: normal bolder 1.5em arial;
+    font: normal bolder 1em arial;
     margin: 0px;
-    
+    height: 30px;
+    padding: 0px;
+    text-decoration: none;
+    text-decoration-line: none;
 }
 
 div>p{
@@ -134,5 +137,20 @@ div>p{
 }
 
 #and{
-    top:20px;
+    top:0px;
 }
+
+#and>a{
+    background-color: #ef6060;
+    font:normal lighter .7em arial;
+    top:10px;
+    left:50%;
+    height: 10px;
+    width: auto;
+    text-decoration: none;
+    color: black;
+    border-radius: 6%;
+}
+ #and>a:hover{
+    background-color:var(--1color);
+ }
