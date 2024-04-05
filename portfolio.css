@@ -110,9 +110,6 @@ div{
     color: white;
     font: normal larger 1em Nunito;
 }
-
-#and{}
-
 #and h1{
     background-color:var(--5color);
     font: normal bolder 1em arial;
@@ -147,5 +144,5 @@ div>p{
     border: 1px solid var(--5color);
     transform: translate(-3px,-3px);
     box-shadow: 3px 3px 5px #00000081;
-    transition: transform .2s, border 0.3s;
+    transition: transform .2s, border 0.5s;
  }
