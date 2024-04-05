@@ -111,16 +111,15 @@ div{
     font: normal larger 1em Nunito;
 }
 
-#and>h1{
+#and{}
 
-    display: block;
-    background-color: var(--5color);
+#and h1{
+    background-color:var(--5color);
     font: normal bolder 1em arial;
+    top:0%;
     margin: 0px;
-    height: 30px;
+    height: 20px;
     padding: 0px;
-    text-decoration: none;
-    text-decoration-line: none;
 }
 
 div>p{
@@ -129,28 +128,24 @@ div>p{
     height: 25px;
     width: 100px;
     margin: 17px;
-    margin-bottom: 5px;
     padding: 5px;
     border-radius: 6%;
     font: normal bold 15pt Nunito;
-    top:20px;
 }
 
-#and{
-    top:0px;
-}
-
-#and>a{
+#and a, #cord a{
+    display:block;
     background-color: #ef6060;
-    font:normal lighter .7em arial;
-    top:10px;
-    left:50%;
-    height: 10px;
-    width: auto;
-    text-decoration: none;
     color: black;
+    font:normal lighter 1.2em arial;
+    margin: 0px;
+    height: 5px;
     border-radius: 6%;
+    text-decoration: none;
 }
  #and>a:hover{
-    background-color:var(--1color);
+    border: 1px solid var(--5color);
+    transform: translate(-3px,-3px);
+    box-shadow: 3px 3px 5px #00000081;
+    transition: transform .2s, border 0.3s;
  }
