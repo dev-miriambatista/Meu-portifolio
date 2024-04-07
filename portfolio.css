@@ -1,148 +1,160 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Passions+Conflict&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Wellfleet&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-:root{
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
---1color: #5b4b50; 
---2color: #8cbdb1; 
---3color:#f2ebbf; 
---4color: #f2b562; 
---5color: #ef6060; 
+@font-face {
+    font-family: '1980';
+    src:url(fontes/gabriele-bad.ttf);
+}
+@font-face {
+        font-family: '1981';
+    src:url(fontes/gabriele-l.ttf);
 }
 
-body{    
-    height:600px;
-    width:auto;
-    margin:0px;
+:root {
+    --1color: #5b4b50;
+    --2color: #BF0B3B;
+    --3color: #D50DD9;
+    --4color: #f2b562;
+    --5color: #238C2A;
+    --6color: #F2B90C;
+    --7color: #F27405;
+}
+
+body {
+    height: 600px;
+    width: auto;
+    margin: 0px;
     padding: 0px;
     overflow: hidden;
-    background-image:linear-gradient(to right,var(--5color),var(--4color),var(--2color));
+    background-color: var(--1color);
 }
-
-main{
+main {
     height: 100vh;
     width: 100vw;
-    position:relative;
-    top:20px;
+    position: relative;
+    top: 20px;
 }
-
-
-header{
+header {
     position: absolute;
-    background-color: #5b4b5067;
+    background-color: #5b4b504d;
+    padding: 5px;
     top: 25px;
     left: 50%;
-    height: 50px;
+    width: 60%;
+    border-radius: 0px 10px 0px 10px;
+    margin: 0px;
+
+    margin: 13px;
+    height: 10vh;
+}
+header>h1 {
+    background-color: #BF0B3B;
+    width: 90%;
+    height:100px;
+    color: white;
+    text-shadow: 2px 2px 2px #000000;
+    margin: 0px;
+    font-size: 3em;
+    font-family: '1981';
+    text-align: right;
+}
+#tex {
+    position: absolute;
+    background-color: #5b4b5067;
+    top: 125px;
+    left: 50%;
+    height: 450px;
     width: 620px;
     border-radius: 16px;
-    border: 4px solid #fcfbfb4b;
-    padding: 12px;
-    font: normal bolder 1em "Wellfleet";
-    text-align: center;
-   
+    padding: -9px;
+    font: normal bolder 1em "arial";
+    text-align: right;
 }
-    header>h1{
-        color: white;
-        text-shadow:2px 2px 2px #ffc1d4;
-       margin:0px;
-       
-    }
-
-section#pc{
+div {
+    background-color: var(--4color);
+    margin-top: 0px;
+    margin: 15px;
+    left: 50%;
+    height: 86px;
+    width: 100%;
+    text-align: center;
+    border: 4px solid var(--4color);
+    border-radius: 10%;
+    color: white;
+    align-items: center;
+    padding: 5px;
+    
+}
+#and h1,#cord h1,#soc h1,#cons h1 {
+    display: inline-block;
+    font-family:'1980';
+    font-size:1em;
+    margin: 0px;
+    height: 5px;
+    width:70%;
+    padding: 5px;
+    align-items: center;
+}
+div>p {
+    background-color: var(--3color);
+    display: inline-block;
+    margin: 13px;
+    height: 3vh;
+    width: 100px;
+    border-radius: 18%;
+    font: normal bold 1em arial;
+    padding: 6px;
+}
+#and a,#cord a,#soc a,#cons a {
+    background-color:#238C2A;
+    display: block;
+    color: black;
+    font: normal lighter 1.2em arial;
+    margin: 0px;
+    height: 31px;
+    border-radius: 10%;
+    text-decoration: none;
+}
+#and>a:hover,#cord>a:hover,#soc>a:hover,#cons>a:hover {
+    background-color: var(--7color);
+    margin: 0px;
+    height: 30px;
+    transition: color 0.5s, background-color 0.5s;
+}
+section#pc {
     position: absolute;
     background-color: #ef6060;
     margin: 0px;
     top: 0px;
     left: 0%;
     height: 577px;
-    width:600px;
-    transform: translate(50px,0px);
+    width: 600px;
+    transform: translate(50px, 0px);
     border-radius: 6%;
     border: 4px solid #fcfbfb4b;
     background: url("imagens/pc-iphone600.png") no-repeat bottom center;
-} 
-iframe#pc{
+}
+iframe#pc {
     background-color: aqua;
     display: inline-block;
     position: absolute;
-    top:30%;
+    top: 30%;
     left: 48%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     height: 250px;
-    width:345px;
-    border-radius:7%;
+    width: 345px;
+    border-radius: 7%;
 }
-
-iframe#iph{
+iframe#iph {
     display: inline;
     background-color: lime;
-    top:7px;
+    top: 7px;
     left: 52%;
-    transform: translate(250%,-100%);
+    transform: translate(-50%, -50%);
     height: 188px;
-    width:85px;
-    border-radius:6%;
-}
-#tex{
-    position: absolute;
-    background-color: #5b4b5067;
-    top: 102px;
-    left: 50%;
-    height: 450px;
-    width: 620px;
-    border-radius: 16px;
-    border: 4px solid #fcfbfb4b;
-    padding: 12px;
-    font: normal bolder 1em "Wellfleet";
-    text-align: center;
-}
-div{
-    background-color: var(--4color);
-    margin-top: 0px;
-    margin: 13px;
-    left:50%;
-    height: 90px;
-    text-align:center;
-    border-radius: 10%;
-    color: white;
-    font: normal larger 1em Nunito;
-}
-#and h1{
-    background-color:var(--5color);
-    font: normal bolder 1em arial;
-    top:0%;
-    margin: 0px;
-    height: 20px;
-    padding: 0px;
-}
-
-div>p{
-    background-color: var(--2color);
-    display: inline-block;
-    height: 25px;
-    width: 100px;
-    margin: 17px;
-    padding: 5px;
+    width: 85px;
     border-radius: 6%;
-    font: normal bold 15pt Nunito;
 }
-
-#and a, #cord a{
-    display:block;
-    background-color: #ef6060;
-    color: black;
-    font:normal lighter 1.2em arial;
-    margin: 0px;
-    height: 5px;
-    border-radius: 6%;
-    text-decoration: none;
-}
- #and>a:hover{
-    border: 1px solid var(--5color);
-    transform: translate(-3px,-3px);
-    box-shadow: 3px 3px 5px #00000081;
-    transition: transform .2s, border 0.5s;
- }
+#and>a:action {}
