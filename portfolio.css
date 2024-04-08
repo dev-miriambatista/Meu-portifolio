@@ -60,15 +60,14 @@ header h1 {
 }
 
 header p {
-    font-family:'Lobster';
+    font-family:'lobster';
     width: 170%;
     height: 100px;
     left: 85%;
     color: white;
     text-shadow: 2px 2px 2px #000000;
     margin: -51px;
-    font-size: 3em;
-    font-family: '1981';
+    font-size: 5em;
     text-align: center;
     
 
